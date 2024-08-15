@@ -300,7 +300,7 @@ class App {
     this.#workouts = data;
 
     if (!data || this.#workouts.length === 0)
-      alert('Click on the map to mark you workout location!');
+      alert('Click on the map to mark your workout location!');
 
     this.#workouts.forEach(work => {
       this._renderWorkout(work);
