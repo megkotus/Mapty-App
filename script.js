@@ -297,9 +297,11 @@ class App {
     // Convert str back to obj
     const data = JSON.parse(localStorage.getItem('workouts'));
 
-    if (!data) return;
-
     this.#workouts = data;
+
+    if (!data || this.#workouts.length === 0)
+      alert('Click on the map to mark you workout location!');
+
     this.#workouts.forEach(work => {
       this._renderWorkout(work);
     });
