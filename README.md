@@ -1,7 +1,19 @@
 # Mapty App
 
-A fitness app to store workout data and render workouts on a map.
+A workout-tracking app that allows users to log running and cycling workouts on an interactive map.
 
-A task on working with classes, using a map API and storing data locally.
+## Features
 
-From The Complete JavaScript Course 2024: From Zero to Expert.
+- 📍 Log running and cycling workouts with location data
+- 🗺️ Interactive map using Leaflet API
+- 💾 Saves workouts in local storage for persistence
+
+## Tech Stack
+
+- **JavaScript** (ES6+)
+- **Leaflet** (Maps API)
+- **Local Storage**
+
+## License
+
+This project is for learning purposes. It is the final project of The Complete JS Course 2024: From Zero to Expert! by Jonas Schmedtmann.
